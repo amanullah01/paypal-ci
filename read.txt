@@ -1,0 +1,19 @@
+1. Application/config/paypallib_config.php
+	--sandbox true for test 
+	-- if live then set sandbox false
+	-- set business paypal email id
+
+2. Application/libraries/Paypal_lib.php
+
+3. Controllers:
+	-- Products.php => This is for show product
+
+	-- Paypal.php  => This is for paypal transactation related
+
+
+***************************************************************
+https://developer.paypal.com/
+
+create account
+https://developer.paypal.com/developer/accounts/
+Dashboard-->Sandbox->Account
